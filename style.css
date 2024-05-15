@@ -28,14 +28,74 @@ footer {
     background-color: red;
     color: #fff;
     text-align: center;
-    /* padding: 20px 0;
-    position: absolute;
+    padding: 20px 0;
+    /* position: absolute;
     width: 100%;
-    bottom: 0; */
-} 
-.container{
+    bottom: 0;  */
+}
+.container {
     background-color: red;
 }
-.sec{
+.sec {
     background-color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.quick-links {
+    margin-bottom: 20px;
+}
+
+.quick-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    flex-wrap: wrap; /* Wrap items if they exceed the container's width */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.quick-links ul li {
+    margin: 0 15px; /* Adjust the spacing between the links */
+}
+
+.quick-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.quick-links ul li a:hover {
+    color: #ddd;
+}
+
+#back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000; /* Ensures it is above other content */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+#back-to-top:hover {
+    background-color: darkred;
 }
